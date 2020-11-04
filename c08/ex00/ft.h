@@ -6,17 +6,17 @@
 /*   By: gbyun <gbyun@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/05 02:54:45 by gbyun             #+#    #+#             */
-/*   Updated: 2020/11/05 02:55:38 by gbyun            ###   ########.fr       */
+/*   Updated: 2020/11/05 06:58:24 by gbyun            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_H
 # define FT_H
 
-void ft_putchar(char c);
-void ft_swap(int *a, int *b);
-void ft_putstr(char *str);
-int ft_strlen(char *str);
-int ft_strcmp(char *s1, char *s2);
+void	ft_putchar(char c);
+void	ft_swap(int *a, int *b);
+void	ft_putstr(char *str);
+int		ft_strlen(char *str);
+int		ft_strcmp(char *s1, char *s2);
 
 #endif

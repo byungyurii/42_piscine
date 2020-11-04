@@ -6,11 +6,12 @@
 /*   By: gbyun <gbyun@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/05 03:11:03 by gbyun             #+#    #+#             */
-/*   Updated: 2020/11/05 05:29:15 by gbyun            ###   ########.fr       */
+/*   Updated: 2020/11/05 07:00:44 by gbyun            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
+# define FT_ABS_H
 
 # define ABS(Value) Value >= 0 ? Value : -Value
 

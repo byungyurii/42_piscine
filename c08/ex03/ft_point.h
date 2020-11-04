@@ -6,17 +6,19 @@
 /*   By: gbyun <gbyun@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/05 03:12:38 by gbyun             #+#    #+#             */
-/*   Updated: 2020/11/05 03:59:35 by gbyun            ###   ########.fr       */
+/*   Updated: 2020/11/05 07:05:25 by gbyun            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef	FT_POINT
-# define FT_POINT
+#ifndef FT_POINT_H
+# define FT_POINT_H
 
 typedef	struct	s_point
 {
 	int x;
 	int y;
 }				t_point;
+
+void			set_point(t_point *point);
 
 #endif
